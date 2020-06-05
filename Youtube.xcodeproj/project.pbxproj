@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2405837C247E80950058B893 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405837B247E80950058B893 /* Constants.swift */; };
+		2405837E247E86BA0058B893 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405837D247E86BA0058B893 /* Video.swift */; };
+		24058380247E87A90058B893 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405837F247E87A90058B893 /* Model.swift */; };
 		2450E3D22476C6A000510400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450E3D12476C6A000510400 /* AppDelegate.swift */; };
 		2450E3D42476C6A000510400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450E3D32476C6A000510400 /* SceneDelegate.swift */; };
 		2450E3D62476C6A000510400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450E3D52476C6A000510400 /* ViewController.swift */; };
 		2450E3D92476C6A000510400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2450E3D72476C6A000510400 /* Main.storyboard */; };
 		2450E3DB2476C6A600510400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2450E3DA2476C6A600510400 /* Assets.xcassets */; };
 		2450E3DE2476C6A600510400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2450E3DC2476C6A600510400 /* LaunchScreen.storyboard */; };
+		2457EEB0248AB847005344FC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457EEAF248AB847005344FC /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2405837B247E80950058B893 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2405837D247E86BA0058B893 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		2405837F247E87A90058B893 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		2450E3CE2476C6A000510400 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2450E3D12476C6A000510400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2450E3D32476C6A000510400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		2450E3DA2476C6A600510400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2450E3DD2476C6A600510400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2450E3DF2476C6A600510400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2457EEAF248AB847005344FC /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				2450E3DA2476C6A600510400 /* Assets.xcassets */,
 				2450E3DC2476C6A600510400 /* LaunchScreen.storyboard */,
 				2450E3DF2476C6A600510400 /* Info.plist */,
+				2405837B247E80950058B893 /* Constants.swift */,
+				2405837D247E86BA0058B893 /* Video.swift */,
+				2405837F247E87A90058B893 /* Model.swift */,
+				2457EEAF248AB847005344FC /* Response.swift */,
 			);
 			path = Youtube;
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				2450E3D62476C6A000510400 /* ViewController.swift in Sources */,
 				2450E3D22476C6A000510400 /* AppDelegate.swift in Sources */,
 				2450E3D42476C6A000510400 /* SceneDelegate.swift in Sources */,
+				24058380247E87A90058B893 /* Model.swift in Sources */,
+				2405837C247E80950058B893 /* Constants.swift in Sources */,
+				2405837E247E86BA0058B893 /* Video.swift in Sources */,
+				2457EEB0248AB847005344FC /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
